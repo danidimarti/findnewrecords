@@ -8,6 +8,7 @@ df2 = '2020_list_unicode.csv'
 
 
 # read the files. Setting low_memory to F to get rid of error
+# SEP= in the paranthesis below specifies the separator of your csv file. 
 base_file = pd.read_csv(df1, sep=',', header=0, low_memory=False)
 comparison_file = pd.read_csv(df2, sep=',', header=0, low_memory=False)
 
